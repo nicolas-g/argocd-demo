@@ -1,7 +1,13 @@
 
 ## Number of replicas to deploy
 ##
-replicaCount: 1
+replicaCount: 2
+
+
+service:
+    ## @param service.type Service type
+    ##
+    type: ClusterIP
 
 ## NGINX containers' liveness and readiness probes.
 ## ref: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/#container-probes

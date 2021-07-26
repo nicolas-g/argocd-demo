@@ -1,0 +1,10 @@
+---
+apiVersion: v2
+name: nginx-subchart
+type: application
+version: 9.4.0_v1
+appVersion: "1.21.1"
+dependencies:
+- name: nginx
+  version: 9.4.0
+  repository: https://charts.bitnami.com/bitnami
